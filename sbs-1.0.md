@@ -92,7 +92,6 @@ chapters:
 
 ````markdown
 <!-- sbs-code -->
-
 ```python
 println("Hello world!")
 ```
