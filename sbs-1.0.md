@@ -43,8 +43,8 @@ chapters:
 - `book_author`：作者名，可选字段，如无则会将创建本书的用户视为作者
 - `book_introduction`：简要介绍，可选字段，目前只支持纯文本
 - `chapters`：书的目录结构
-  - 分为 `chapter` 和 `section` 两级，对应书的前两级章节结构
-  - 每个 `section` 对应一个 `.md` 文件
+  - 分为**章** `chapter` 和**节** `section` 两级，对应书的前两级章节结构
+  - 每个**节** `section` 对应一个 `.md` 文件
   - `chapter` 和 `section` 的 `name` 字段仅用于目录展示，不会出现在正文展示中
   - `section` 的 `path` 字段通过相对路径引用具体的 `.md` 文件，具体目录结构和位置可由作者自行组织
 
