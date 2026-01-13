@@ -106,6 +106,7 @@ SBS 语法基于现有 Markdown 标准并添加了扩展，具有以下特点：
 ````markdown
 ```sbs-bridge
 [Event "World Cup"]
+---
 [Deal "N:AKQ..."]
 ```
 ````

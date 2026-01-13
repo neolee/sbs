@@ -5,3 +5,9 @@ description = "The open Smart Book Standard and Utilitites"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = []
+
+[tool.ruff.lint]
+ignore = ["E402", "E701", "E731", "F403", "F405"]
+
+[tool.ty.src]
+exclude = [".venv", "local"]
